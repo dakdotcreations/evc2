@@ -24,7 +24,7 @@ export const services: ServiceCategory[] = [
 		title: 'Branding & Visual Communication',
 		summary:
 			'This is where FIAT was born, and it remains our sharpest edge. We turn brand identities into physical, felt experiences — across offices, retail spaces, events and everyday touchpoints.',
-		image: 'Feature wall graphics being applied in a corporate reception',
+		image: '/images/e (1).jpg',
 		items: [
 			{
 				title: 'Corporate & Environmental Branding',
@@ -57,7 +57,7 @@ export const services: ServiceCategory[] = [
 		title: 'Event Management & Production',
 		summary:
 			'Because branding taught us that details matter, we bring that same precision into full event delivery — from first concept to final teardown.',
-		image: 'Live stage, lighting rig and AV setup at an executive summit',
+		image: 'images/2150960330.jpg',
 		items: [
 			{
 				title: 'Event Strategy & Creative Direction',
@@ -98,7 +98,7 @@ export const services: ServiceCategory[] = [
 		title: 'Set Design',
 		summary:
 			'We transform ordinary venues into environments that feel intentional — designed, styled and built around your brand and your guests.',
-		image: 'Styled stage set with florals, texture and layered lighting',
+		image: 'images/e (7).jpg',
 		items: [
 			{
 				title: 'Spatial Design & Styling',
@@ -133,7 +133,7 @@ export const services: ServiceCategory[] = [
 		title: 'Brand Strategy & Activation',
 		summary:
 			'We create the moments where a brand actually meets its audience, and make sure that meeting is memorable.',
-		image: 'Guests engaging with a branded activation booth at a product launch',
+		image: 'images/e.webp',
 		items: [
 			{
 				title: 'Corporate Brand Activations',

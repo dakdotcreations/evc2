@@ -44,7 +44,7 @@
 					</a>
 				</li>
 				<li class="flex items-center gap-2">
-					<MapPin class="size-3.5 shrink-0" /> Lagos, Nigeria
+					<MapPin class="size-3.5 shrink-0" /> Kampala, Uganda
 				</li>
 			</ul>
 		</div>

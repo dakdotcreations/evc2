@@ -29,13 +29,8 @@
 					use:reveal={i * 80}
 					class="group flex flex-col overflow-hidden rounded-3xl border border-border bg-surface-soft transition-all duration-300 hover:-translate-y-1.5 hover:border-secondary/40 hover:shadow-xl hover:shadow-secondary/10"
 				>
-					<div class={`relative flex aspect-video flex-col items-center justify-center gap-1.5 border-b border-border text-center ${tones[i % tones.length]}`}>
-						<ImageIcon class="size-4 text-foreground-muted/50" />
-						<p class="max-w-[22ch] text-xs leading-snug text-foreground-muted">{service.image}</p>
-
-						<div class="absolute -bottom-5 left-5 flex size-11 items-center justify-center rounded-full bg-primary text-primary-foreground shadow-lg transition-colors duration-300 group-hover:bg-accent group-hover:text-accent-foreground">
-							<service.icon class="size-4.5" />
-						</div>
+					<div class={`${tones[i % tones.length]}`}>
+						<img src="{service.image}" alt="" class="h-full w-full aspect-video object-cover">
 					</div>
 
 					<div class="flex flex-1 flex-col justify-between p-6 pt-8">

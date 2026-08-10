@@ -18,8 +18,8 @@
 	];
 </script>
 
-<section class="full-width content-grid bg-background pt-14 pb-20 md:pt-20 md:pb-28">
-	<div class="breakout grid gap-14 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
+<section class="full-width content-grid bg-background pb-12">
+	<div class="breakout grid gap-14 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
 		<div use:reveal>
 			<Eyebrow text="Branding · Events · Culture" />
 
@@ -57,22 +57,8 @@
 		</div>
 
 		<div class="relative" use:reveal={150}>
-			<div class="flex aspect-4/5 flex-col items-center justify-center gap-3 rounded-3xl border border-border bg-surface-soft p-8 text-center sm:aspect-3/4 lg:aspect-4/5">
-				<ImageIcon class="size-6 text-secondary" />
-				<span class="font-display text-lg font-bold text-foreground">Image</span>
-				<p class="max-w-[26ch] text-sm text-foreground-muted">
-					Branded event space mid-activation — guests mingling under styled lighting and a
-					feature backdrop bearing the FIAT identity.
-				</p>
-			</div>
-
-			<div class="absolute -bottom-6 -left-6 hidden w-48 grid-cols-2 gap-2 rounded-2xl border border-border bg-background p-3 shadow-2xl sm:grid">
-				{#each swatches as swatch (swatch.name)}
-					<div class={`flex aspect-square flex-col justify-between rounded-lg p-2.5 text-[0.6rem] font-bold tracking-wide uppercase ${swatch.class}`}>
-						{swatch.name}
-						<span class="text-[0.55rem] font-semibold opacity-70">{swatch.tag}</span>
-					</div>
-				{/each}
+			<div class="aspect-7/8 rounded-3xl bg-surface-soft">
+				<img src="/images/2151320713.webp" alt="" class="w-full h-full object-cover">
 			</div>
 		</div>
 	</div>

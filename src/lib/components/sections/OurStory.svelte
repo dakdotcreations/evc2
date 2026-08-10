@@ -7,23 +7,25 @@
 </script>
 
 <section class="full-width content-grid bg-background py-24 md:py-32">
-	<div class="breakout grid gap-14 lg:grid-cols-[0.85fr_1.15fr]">
+	<div class="breakout grid gap-14 lg:grid-cols-[2fr_1fr]">
 		<div use:reveal>
 			<Eyebrow text="Our story" />
 			<h2 class="mt-4 font-display text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl">
 				Branding people who happen to be excellent at events.
 			</h2>
 
-			<div class="mt-8 flex aspect-4/3 flex-col items-center justify-center gap-3 rounded-3xl border border-border bg-surface p-8 text-center">
-				<ImageIcon class="size-5 text-deep" />
-				<span class="font-display text-lg font-bold text-deep">Image</span>
-				<p class="max-w-[28ch] text-sm text-foreground-muted">
-					FIAT's early days — a hand applying vinyl signage to a feature wall, mid-installation.
-				</p>
+			<div class="mt-8 aspect-4/2 rounded-3xl bg-surface overflow-hidden">
+				<img src="/images/vinyl_signage.jpeg" alt="" class="h-full w-full object-cover">
 			</div>
 		</div>
 
 		<div use:reveal={120}>
+			<div class="opacity-0 mb-8 hidden lg:block">
+				<Eyebrow text="Our story" />
+				<div class="mt-4 font-display text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl">
+					Branding people 
+				</div>
+			</div>
 			<div class="space-y-4 text-lg leading-relaxed text-foreground-muted">
 				<p>
 					FIAT began in branding — eight years of building identities, transforming walls, signage
@@ -51,17 +53,6 @@
 					</p>
 				</div>
 			{/if}
-
-			<div class="mt-8 grid grid-cols-2 gap-4">
-				<div class="rounded-2xl border border-border bg-surface-soft p-6">
-					<p class="font-display text-3xl font-extrabold text-primary">8 yrs</p>
-					<p class="mt-1 text-sm text-foreground-muted">Branding heritage before events</p>
-				</div>
-				<div class="rounded-2xl border border-border bg-surface-soft p-6">
-					<p class="font-display text-3xl font-extrabold text-primary">4</p>
-					<p class="mt-1 text-sm text-foreground-muted">Disciplines under one roof</p>
-				</div>
-			</div>
 
 			{#if compact}
 				<a href="/about" class="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-primary underline decoration-secondary/50 underline-offset-4 hover:text-secondary">

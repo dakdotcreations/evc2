@@ -25,9 +25,8 @@
 			<h2 class="mt-6 font-display text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl">{service.title}</h2>
 			<p class="mt-4 max-w-lg text-lg leading-relaxed text-foreground-muted">{service.summary}</p>
 
-			<div class="mt-8 flex aspect-video max-w-lg flex-col items-center justify-center gap-2 rounded-2xl border border-border bg-background p-6 text-center">
-				<ImageIcon class="size-5 text-secondary" />
-				<p class="max-w-[32ch] text-sm text-foreground-muted">{service.image}</p>
+			<div class="mt-8 flex aspect-video max-w-lg flex-col items-center justify-center gap-2 rounded-2xl border border-border bg-background overflow-hidden">
+				<img src="{service.image}" alt="" class="h-full w-full aspect-video object-cover">
 			</div>
 		</div>
 

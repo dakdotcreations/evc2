@@ -33,12 +33,8 @@
 				<ContactInfoCards />
 			</div>
 
-			<div class="mt-10 flex aspect-video flex-col items-center justify-center gap-2 rounded-2xl border border-border bg-surface-soft p-6 text-center">
-				<ImageIcon class="size-5 text-deep" />
-				<span class="font-display text-base font-bold text-deep">Image / Map</span>
-				<p class="max-w-[30ch] text-sm text-foreground-muted">
-					Map or studio photo showing the FIAT team's Lagos base.
-				</p>
+			<div class="mt-10 flex aspect-video flex-col items-center justify-center gap-2 rounded-2xl border border-border bg-surface-soft overflow-hidden">
+				<img src="images/2151320699.jpg" alt="" class="object-cover size-full">
 			</div>
 		</div>
 
