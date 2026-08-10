@@ -1,0 +1,3 @@
+- use the colors defined in layout.css
+- use the content grid instead of container, max-w with mx-auto for managing the width of the content
+- you can modify the values in layout.css too if required

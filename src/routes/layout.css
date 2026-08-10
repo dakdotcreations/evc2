@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@theme {
+	/* Colors — FIAT palette: cream, bronze, maroon, navy */
+	--color-background: #FAF5EA;
+	--color-surface: #E8D9C4;
+	--color-surface-soft: #F1E8D8;
+	--color-foreground: #050A30;
+	--color-foreground-muted: #5B4C3B;
+
+	--color-primary: #050A30;
+	--color-primary-foreground: #F5EDDD;
+
+	--color-secondary: #785D32;
+	--color-secondary-foreground: #FAF5EA;
+
+	--color-accent: #C1922F;
+	--color-accent-foreground: #050A30;
+
+	--color-deep: #3E160C;
+	--color-deep-foreground: #EFDFC8;
+
+	--color-muted: #E8D9C4;
+	--color-muted-foreground: #6B5642;
+
+	--color-border: #D9C6A8;
+
+	/* Typography */
+	--font-display: "Plus Jakarta Sans", sans-serif;
+	--font-voice: "Fraunces", serif;
+	--font-body: "Plus Jakarta Sans", sans-serif;
+}
+
+.content-grid {
+	--padding-inline: 1rem;
+	--content-max-width: 1440px;
+	--breakout-max-width: 1700px;
+	--breakout-size: calc((var(--breakout-max-width) - var(--content-max-width)) / 2);
+
+	display: grid;
+	grid-template-columns:
+		[full-width-start] minmax(var(--padding-inline), 1fr) [breakout-start] minmax(
+			0,
+			var(--breakout-size)
+		)
+		[content-start] min(100% - (var(--padding-inline) * 2), var(--content-max-width))
+		[content-end] minmax(0, var(--breakout-size)) [breakout-end] minmax(
+			var(--padding-inline),
+			1fr
+		)
+		[full-width-end];
+
+	& > :not(.breakout, .full-width, .content-grid) {
+		grid-column: content;
+	}
+
+	& > .breakout {
+		grid-column: breakout;
+	}
+
+	& > .full-width {
+		grid-column: full-width;
+	}
+
+	& > .content-grid {
+		grid-column: full-width;
+	}
+}
+
+/* Scroll-reveal utility, toggled by the `reveal` action */
+[data-reveal] {
+	opacity: 0;
+	translate: 0 1.5rem;
+	transition:
+		opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+		translate 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+	transition-delay: var(--reveal-delay, 0ms);
+}
+
+[data-reveal="in"] {
+	opacity: 1;
+	translate: 0 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	[data-reveal] {
+		opacity: 1;
+		translate: 0 0;
+		transition: none;
+	}
+}
+
+/* Infinite horizontal ticker, used by MarqueeBand */
+@keyframes marquee-scroll {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-50%);
+	}
+}
+
+.animate-marquee {
+	animation: marquee-scroll 28s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.animate-marquee {
+		animation: none;
+	}
+}
