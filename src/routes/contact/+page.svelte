@@ -19,7 +19,7 @@
 />
 
 <section class="full-width content-grid bg-background py-24 md:py-32">
-	<div class="breakout grid gap-16 lg:grid-cols-[0.9fr_1.1fr]">
+	<div class="breakout grid gap-16 items-end lg:grid-cols-[0.9fr_1.1fr]">
 		<div use:reveal>
 			<Eyebrow text="Contact details" />
 			<h2 class="mt-3 font-display text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl">
@@ -33,17 +33,17 @@
 				<ContactInfoCards />
 			</div>
 
-			<div class="mt-10 flex aspect-video flex-col items-center justify-center gap-2 rounded-2xl border border-border bg-surface-soft overflow-hidden">
+		</div>
+		
+		<div use:reveal={120} >
+			<div class="flex aspect-16/10 flex-col items-center justify-center gap-2 rounded-2xl border border-border bg-surface-soft overflow-hidden">
 				<img src="images/2151320699.jpg" alt="" class="object-cover size-full">
 			</div>
-		</div>
-
-		<div use:reveal={120} class="rounded-3xl border border-border bg-surface-soft p-8 sm:p-10">
-			<h3 class="font-display text-2xl font-extrabold text-foreground">Send us a message</h3>
+			<!-- <h3 class="font-display text-2xl font-extrabold text-foreground">Send us a message</h3>
 			<p class="mt-2 text-sm text-foreground-muted">Every project starts with a conversation.</p>
 			<div class="mt-8">
 				<ContactForm />
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>

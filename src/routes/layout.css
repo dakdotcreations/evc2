@@ -58,6 +58,10 @@
 		grid-column: breakout;
 	}
 
+	& > .breakout-full-width {
+		grid-column: breakout-start / full-width-end;
+	}
+
 	& > .full-width {
 		grid-column: full-width;
 	}
