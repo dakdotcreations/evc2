@@ -5,7 +5,7 @@
 
 	let {
 		title = "Let's build your next moment.",
-		description = 'Tell us what you are launching, celebrating or activating — we will bring the plan, the craft and the hospitality.',
+		description = 'Tell us what you are launching, celebrating or activating - we will bring the plan, the craft and the hospitality.',
 		buttonLabel = 'Start a project',
 		href = '/contact'
 	}: {
@@ -18,7 +18,7 @@
 
 <section class="full-width content-grid bg-background py-24 md:py-28">
 	<div
-		class="breakout flex flex-col items-center gap-8 rounded-[2.5rem] bg-primary px-8 py-16 text-center text-primary-foreground sm:px-16 md:flex-row md:justify-between md:text-left"
+		class="flex flex-col items-center gap-8 rounded-[2.5rem] bg-primary px-8 py-16 text-center text-primary-foreground sm:px-16 md:flex-row md:justify-between md:text-left"
 		use:reveal
 	>
 		<div>

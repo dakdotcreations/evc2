@@ -8,7 +8,7 @@
 			Time. Hospitality. Community. Excellence.
 		</p>
 		<p class="mx-auto mt-6 max-w-lg text-lg text-deep-foreground/70">
-			We build culture — on time, every time.
+			We build culture - on time, every time.
 		</p>
 	</div>
 </section>
