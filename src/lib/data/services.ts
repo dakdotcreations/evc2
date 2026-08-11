@@ -133,7 +133,7 @@ export const services: ServiceCategory[] = [
 		title: 'Brand Strategy & Activation',
 		summary:
 			'We create the moments where a brand actually meets its audience, and make sure that meeting is memorable.',
-		image: 'images/e.webp',
+		image: 'images/121524.jpg',
 		items: [
 			{
 				title: 'Corporate Brand Activations',

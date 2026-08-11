@@ -19,7 +19,7 @@
 <MarqueeBand />
 <OurStory compact />
 <ServicesOverview />
-<WorkGallery />
+<!-- <WorkGallery /> -->
 <Approach compact />
 <WhyChooseUs />
 <PromiseBanner />

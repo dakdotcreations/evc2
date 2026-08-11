@@ -7,7 +7,7 @@
 		{ label: 'Feature wall installation', caption: 'Corporate HQ lobby, wall graphics mid-install', tall: true, image: 'images/wall-feat.jpg', tone: 'bg-primary/5' },
 		{ label: 'Live stage & lighting rig', caption: 'Executive summit, main stage at golden hour', tall: false, image: 'images/wall-feat.jpg', tone: 'bg-secondary/10' },
 		{ label: 'VIP lounge styling', caption: 'Florals, textures and warm ambient lighting', tall: true, image: 'images/wall-feat.jpg', tone: 'bg-deep/5' },
-		{ label: 'Product launch crowd', caption: 'Guests engaging with a branded activation booth', tall: true, image: 'images/wall-feat.jpg', tone: 'bg-accent/10' },
+		{ label: 'Product launch', caption: 'Launching product at events', tall: true, image: 'images/e.webp', tone: 'bg-accent/10' },
 		{ label: 'Large-format banner print', caption: 'On-site production and installation crew at work', tall: false, image: 'images/wall-feat.jpg', tone: 'bg-secondary/10' },
 		{ label: 'Branded merchandise flat-lay', caption: 'Promotional items carrying the client identity', tall: false, image: 'images/wall-feat.jpg', tone: 'bg-primary/5' }
 	];
