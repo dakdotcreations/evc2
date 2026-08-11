@@ -34,6 +34,26 @@
 <svelte:head>
 	<title>FIAT Creative Events Company Limited | Branding · Events · Culture</title>
 	<meta name="description" content="FIAT is a branding, events and brand activation company that builds culture through everything we touch spaces, moments, and the small details in between." />
+	
+	<!-- Canonical Link -->
+	<link rel="canonical" href="https://www.fiatcreativeevents.com/" />
+
+	<!-- Open Graph Meta Tags -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.fiatcreativeevents.com/" />
+	<meta property="og:title" content="FIAT Creative Events Company Limited | Branding · Events · Culture" />
+	<meta property="og:description" content="FIAT is a branding, events and brand activation company that builds culture through everything we touch spaces, moments, and the small details in between." />
+	<meta property="og:image" content="https://www.fiatcreativeevents.com/og-image.png" />
+	<meta property="og:image:width" content="577" />
+	<meta property="og:image:height" content="190" />
+	<meta property="og:site_name" content="FIAT Creative Events" />
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:url" content="https://www.fiatcreativeevents.com/" />
+	<meta name="twitter:title" content="FIAT Creative Events Company Limited | Branding · Events · Culture" />
+	<meta name="twitter:description" content="FIAT is a branding, events and brand activation company that builds culture through everything we touch spaces, moments, and the small details in between." />
+	<meta name="twitter:image" content="https://www.fiatcreativeevents.com/og-image.png" />
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
