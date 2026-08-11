@@ -30,15 +30,15 @@
 	];
 </script>
 
-<section class="full-width content-grid bg-background pb-12">
+<section class="full-width content-grid bg-background pb-12 pt-20 lg:pt-0">
 	<div
-		class="breakout grid gap-14 lg:grid-cols-[1.1fr_0.9fr] lg:items-center"
+		class="breakout-full-width grid gap-14 lg:grid-cols-[1.1fr_0.9fr] lg:items-center"
 	>
-		<div use:reveal>
+		<div use:reveal >
 			<Eyebrow text="Branding · Events · Culture" />
 
 			<h1
-				class="mt-5 font-display text-5xl leading-[1.05] font-extrabold tracking-tight text-foreground sm:text-6xl lg:text-[4.5rem]"
+				class="mt-5 font-display h1 leading-[1.05] font-extrabold tracking-tight text-foreground"
 			>
 				Branding is <span
 					class="font-voice font-medium text-deep italic"

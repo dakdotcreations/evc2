@@ -71,6 +71,10 @@
 	}
 }
 
+.h1 {
+    font-size: min(max(38px, 5.55556vw), 80px);
+}
+
 /* Scroll-reveal utility, toggled by the `reveal` action */
 [data-reveal] {
 	opacity: 0;

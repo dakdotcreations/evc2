@@ -33,7 +33,7 @@
 
 <svelte:head>
 	<title>FIAT Creative Events Company Limited | Branding · Events · Culture</title>
-	<meta name="description" content="FIAT is a branding, events and brand activation company that builds culture through everything we touch — spaces, moments, and the small details in between." />
+	<meta name="description" content="FIAT is a branding, events and brand activation company that builds culture through everything we touch spaces, moments, and the small details in between." />
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
@@ -43,10 +43,10 @@
 </svelte:head>
 
 
-<div class="min-h-screen flex flex-col relative selection:bg-accent selection:text-accent-foreground content-grid font-body text-foreground" id="smooth-wrapper">
+<div class="flex flex-col h-screen overflow-hidden relative selection:bg-accent selection:text-accent-foreground content-grid font-body text-foreground">
 	<!-- Primary Site Header -->
-	<header class="sticky top-0 z-50 content-grid border-b border-border bg-background/90 backdrop-blur-md">
-		<div class="h-18 flex items-center justify-between breakout md:h-20">
+	<header class="h-18 md:h-20 sticky top-0 z-50 content-grid border-b border-border bg-background/90 backdrop-blur-md">
+		<div class="flex items-center justify-between breakout">
 			<!-- Brand Logo & Identity -->
 			<a href="/" class="flex items-center gap-4 group">
                 <Logo class="h-8 md:h-9" />
@@ -85,10 +85,12 @@
 	<!-- Mobile Dropdown Menu (kept outside header so its own fixed overlay isn't trapped by the header's backdrop-blur containing block) -->
 	<NavMenu bind:isMenuOpen />
 
-	<!-- Main Viewport -->
-	<main class="grow content-grid" id="smooth-content">
-		{@render children()}
-    	<Footer />
-	</main>
+    <div id="smooth-wrapper" class="flex-1 overflow-auto">
+        <!-- Main Viewport -->
+        <main class="content-grid" id="smooth-content">
+            {@render children()}
+            <Footer />
+        </main>
+    </div>
 </div>
 

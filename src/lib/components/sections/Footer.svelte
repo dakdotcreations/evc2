@@ -42,7 +42,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="mailto:hello@fiatcreative.com" class="flex items-center gap-2 hover:text-accent transition-colors">
+					<a href="mailto:hello@fiatcreativeevents.com" class="flex items-center gap-2 hover:text-accent transition-colors">
 						<Mail class="size-3.5 shrink-0" /> hello@fiatcreativeevents.com
 					</a>
 				</li>
@@ -64,8 +64,8 @@
 		</div> -->
 	</div>
 
-	<div class="breakout flex flex-col items-center justify-between gap-4 border-t border-deep-foreground/10 py-8 text-xs text-deep-foreground/50 sm:flex-row">
-		<p>© {year} FIAT Creative Events Company Limited. All rights reserved.</p>
-		<p>Branding · Events · Culture</p>
+	<div class="breakout flex flex-col items-center justify-between gap-4 border-t border-deep-foreground/10 py-8 text-xs text-deep-foreground/50 sm:flex-row text-center">
+		<p>© {year} FIAT Creative Events Co Ltd. All rights reserved.</p>
+		<p>Built by <a href="http://dakdot.com" target="_blank" rel="noopener noreferrer">DAKDOT</a></p>
 	</div>
 </footer>
