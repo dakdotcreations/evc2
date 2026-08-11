@@ -38,11 +38,11 @@ export type WhyChoosePoint = {
 export const whyChoosePoints: WhyChoosePoint[] = [
 	{
 		title: 'Branding Roots, Events Range',
-		description: 'Eight years of branding expertise now applied across full-scale event delivery.'
+		description: 'Branding expertise integrated throughout every aspect of full-scale experience delivery.'
 	},
 	{
 		title: 'Time Management, Taken Seriously',
-		description: 'We treat your event clock like our own — punctual planning, punctual delivery.'
+		description: 'We treat your event clock like our own punctual planning, punctual delivery.'
 	},
 	{
 		title: 'Hospitality First',

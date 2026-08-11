@@ -14,7 +14,7 @@
 			<div>
 				<Eyebrow text="Our approach" />
 				<h2 class="mt-3 max-w-lg font-display text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
-					Warm, not stiff. Playful, not chaotic.
+					Warm, not stiff. <br> <span class="font-voice italic">Lively</span>, not chaotic.
 				</h2>
 			</div>
 			{#if compact}

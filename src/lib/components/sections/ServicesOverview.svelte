@@ -13,12 +13,12 @@
 			<div>
 				<Eyebrow text="What we do" />
 				<h2 class="mt-3 max-w-lg font-display text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
-					Four disciplines. One creative house.
+					Four disciplines. <br> One creative house.
 				</h2>
 			</div>
 			<p class="max-w-sm text-foreground-muted">
-				We started in branding, and it still shapes everything — from full event production to
-				set design and brand activation.
+				We start in branding, and it still shapes everything from full event production to
+				set design and brand activations.
 			</p>
 		</div>
 
@@ -30,7 +30,7 @@
 					class="group flex flex-col overflow-hidden rounded-3xl border border-border bg-surface-soft transition-all duration-300 hover:-translate-y-1.5 hover:border-secondary/40 hover:shadow-xl hover:shadow-secondary/10"
 				>
 					<div class={`${tones[i % tones.length]}`}>
-						<img src="{service.image}" alt="" class="h-full w-full aspect-video object-cover">
+						<img src="{service.image}" alt="" class="h-full w-full aspect-16/10 object-cover">
 					</div>
 
 					<div class="flex flex-1 flex-col justify-between p-6 pt-8">

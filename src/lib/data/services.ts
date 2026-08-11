@@ -23,7 +23,7 @@ export const services: ServiceCategory[] = [
 		icon: Paintbrush,
 		title: 'Branding & Visual Communication',
 		summary:
-			'This is where FIAT was born, and it remains our sharpest edge. We turn brand identities into physical, felt experiences — across offices, retail spaces, events and everyday touchpoints.',
+			'This is where FIAT was born, and it remains our sharpest edge. We turn brand identities into physical, felt experiences across offices, retail spaces, events and everyday touchpoints.',
 		image: '/images/e (1).jpg',
 		items: [
 			{
@@ -56,7 +56,7 @@ export const services: ServiceCategory[] = [
 		icon: CalendarClock,
 		title: 'Event Management & Production',
 		summary:
-			'Because branding taught us that details matter, we bring that same precision into full event delivery — from first concept to final teardown.',
+			'Because branding taught us that details matter, we bring that same precision into full event delivery from first concept to final teardown.',
 		image: 'images/2150960330.jpg',
 		items: [
 			{
@@ -97,7 +97,7 @@ export const services: ServiceCategory[] = [
 		icon: LayoutTemplate,
 		title: 'Set Design',
 		summary:
-			'We transform ordinary venues into environments that feel intentional — designed, styled and built around your brand and your guests.',
+			'We transform ordinary venues into environments that feel intentional designed, styled and built around your brand and your guests.',
 		image: 'images/e (7).jpg',
 		items: [
 			{
