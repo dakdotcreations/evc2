@@ -64,8 +64,8 @@
 		</div> -->
 	</div>
 
-	<div class="breakout flex flex-col items-center justify-between gap-4 border-t border-deep-foreground/10 py-8 text-xs text-deep-foreground/50 sm:flex-row text-center">
+	<div class="breakout flex flex-col items-center justify-around gap-4 border-t border-deep-foreground/10 py-8 text-xs text-deep-foreground/50 sm:flex-row text-center">
 		<p>© {year} FIAT Creative Events Co Ltd. All rights reserved.</p>
-		<p>Built by <a href="http://dakdot.com" target="_blank" rel="noopener noreferrer">DAKDOT</a></p>
+		<p class="sr-only">Built by <a href="http://dakdot.com" target="_blank" rel="noopener noreferrer">DAKDOT</a></p>
 	</div>
 </footer>
