@@ -4,12 +4,6 @@
 	import Eyebrow from "$lib/components/ui/Eyebrow.svelte";
 	import { ArrowUpRight, ImageIcon } from "@lucide/svelte";
 
-	const stats = [
-		// { value: '8+', label: 'Years in branding' },
-		{ value: "4", label: "Disciplines, one house" },
-		{ value: "100%", label: "Hospitality first" },
-	];
-
 	const swatches = [
 		{
 			name: "Navy",
@@ -30,32 +24,37 @@
 	];
 </script>
 
-<section class="full-width content-grid bg-background pb-12 pt-20 lg:pt-0">
-	<div
-		class="breakout-full-width grid gap-14 lg:grid-cols-[1.1fr_0.9fr] lg:items-center"
-	>
-		<div use:reveal >
-			<Eyebrow text="Branding · Events · Culture" />
-
+<section class="full-width bg-background pb-12 pt-20">
+	<div class="breakout flex flex-col-reverse relative">
+		<div use:reveal class="lg:absolute lg:inset-0 z-10 md:grid md:place-content-center md:text-center p-4">
 			<h1
-				class="mt-5 font-display h1 leading-[1.05] font-extrabold tracking-tight text-foreground"
+				class="mt-5 font-display h1 leading-[1.05] font-extrabold tracking-tight text-foreground lg:text-surface"
 			>
 				Branding is <span
-					class="font-voice font-medium text-deep italic"
+					class="font-voice font-medium text-deep lg:text-background italic"
 					>culture</span
-				>- <br/> We bring it to life.
+				> <br/> We bring it to life.
 			</h1>
 
 			<p
-				class="mt-6 max-w-xl text-lg leading-relaxed text-foreground-muted"
+				class="mt-6 max-w-xl text-lg leading-relaxed text-foreground-muted lg:text-surface/80"
 			>
-				FIAT creates immersive experiences that align with your brand
-				strategy and identity. From launches and activations to live
-				events, we design memorable moments that embed your brand
-				culture into every interaction.
+				Immersive experiences that align with your brand
+				strategy and identity.
 			</p>
 
-			<div class="mt-9 flex flex-wrap items-center gap-4">
+			<div class="mt-9 hidden lg:flex flex-wrap items-center justify-center gap-4">
+				<a href="/contact">
+					<Button variant="default">
+						Start a project
+						<ArrowUpRight class="size-4" />
+					</Button>
+				</a>
+				<a href="/services">
+					<Button variant="outlineDark">See what we do</Button>
+				</a>
+			</div>
+			<div class="mt-9 flex flex-wrap items-center justify-center lg:hidden gap-4">
 				<a href="/contact">
 					<Button variant="primary">
 						Start a project
@@ -66,31 +65,12 @@
 					<Button variant="outline">See what we do</Button>
 				</a>
 			</div>
-
-			<div
-				class="mt-12 flex flex-wrap gap-x-10 gap-y-5 border-t border-border pt-8"
-			>
-				{#each stats as stat (stat.label)}
-					<div class="flex flex-1 items-center gap-4">
-						<p
-							class="font-display text-4xl font-extrabold text-foreground"
-						>
-							{stat.value}
-						</p>
-						<p
-							class="text-xs tracking-wide text-foreground-muted uppercase"
-						>
-							{stat.label}
-						</p>
-					</div>
-				{/each}
-			</div>
 		</div>
 
-		<div class="relative" use:reveal={150}>
-			<div class="aspect-7/8 rounded-3xl bg-surface-soft">
+		<div class="relative p-4" use:reveal={150}>
+			<div class="aspect-square sm:aspect-16/12 md:aspect-16/10 lg:aspect-16/8 rounded-3xl overflow-hidden relative hero-container">
 				<img
-					src="/images/2151320713.webp"
+					src="/fiat/fiat_(6)_2K_20260922195257.jpeg"
 					alt=""
 					class="w-full h-full object-cover"
 				/>
@@ -98,3 +78,41 @@
 		</div>
 	</div>
 </section>
+
+
+<style>
+	.hero-container{
+        @media (width >= 64rem /* 1024px */) {
+            &::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                
+                background: radial-gradient(
+                    ellipse at 50% 45%,           /* Target center height (X%, Y%) */
+                    rgba(15, 23, 42, 0.9) 0%,     /* Darkest core color */
+                    rgba(15, 23, 42, 0.5) 40%,    /* Soft transition */
+                    transparent 75%               /* Fade to image edges */
+                );
+                
+                pointer-events: none; /* Allows clicks to pass through to elements below */
+                z-index: 1;
+            }
+        }
+
+        img {
+            animation: pulseZoom 10s ease-in-out infinite alternate;
+        }
+    }
+
+
+
+    @keyframes pulseZoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.06); /* Zooms in by 6% */
+  }
+}
+</style>
