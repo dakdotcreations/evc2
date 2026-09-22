@@ -54,7 +54,7 @@
 					<Button variant="outlineDark">See what we do</Button>
 				</a>
 			</div>
-			<div class="mt-9 flex flex-wrap items-center justify-center lg:hidden gap-4">
+			<div class="mt-9 flex flex-wrap items-center md:justify-center lg:hidden gap-4">
 				<a href="/contact">
 					<Button variant="primary">
 						Start a project
