@@ -1,5 +1,5 @@
 import type { Component } from 'svelte';
-import { Paintbrush, CalendarClock, LayoutTemplate, Megaphone } from '@lucide/svelte';
+import { Building2, Briefcase, Wrench, Video } from '@lucide/svelte';
 
 export type ServiceItem = {
 	title: string;
@@ -17,144 +17,103 @@ export type ServiceCategory = {
 };
 
 export const services: ServiceCategory[] = [
-	{
-		slug: 'branding',
-		number: '01',
-		icon: Paintbrush,
-		title: 'Branding & Visual Communication',
-		summary:
-			'This is where FIAT was born, and it remains our sharpest edge. We turn brand identities into physical, felt experiences across offices, retail spaces, events and everyday touchpoints.',
-		image: '/images/e (1).jpg',
-		items: [
-			{
-				title: 'Corporate & Environmental Branding',
-				description:
-					'Wall graphics, feature walls, signage, reception and interior brand applications.'
-			},
-			{
-				title: 'Large-Format Graphics & Production',
-				description: 'Banners, wallpapers, displays, decals and signage, from concept to installation.'
-			},
-			{
-				title: 'Brand Identity Implementation',
-				description:
-					'Consistent, accurate application of logo, colour, typography and guidelines across every touchpoint.'
-			},
-			{
-				title: 'Promotional & Branded Merchandise',
-				description: "Branded items that carry your identity beyond the space and into people's hands."
-			},
-			{
-				title: 'Brand Activations & Experiential Design',
-				description: 'Interactive, attention-grabbing touchpoints designed to be noticed, not ignored.'
-			}
-		]
-	},
-	{
-		slug: 'events',
-		number: '02',
-		icon: CalendarClock,
-		title: 'Event Management & Production',
-		summary:
-			'Because branding taught us that details matter, we bring that same precision into full event delivery from first concept to final teardown.',
-		image: 'images/2150960330.jpg',
-		items: [
-			{
-				title: 'Event Strategy & Creative Direction',
-				description: 'Translating your objective into a clear, compelling event concept.'
-			},
-			{
-				title: 'Event Planning & Production',
-				description:
-					'Logistics, supplier coordination, technical planning and on-site delivery, managed end to end.'
-			},
-			{
-				title: 'Corporate Events & Brand Experiences',
-				description:
-					'Curated gatherings for clients, staff, partners and VIPs that leave the right impression.'
-			},
-			{
-				title: 'Conferences, Summits & Executive Events',
-				description: 'Seamless delivery of forums, launches, awards and executive engagements.'
-			},
-			{
-				title: 'Technical & Event Production',
-				description: 'Staging, sound, lighting, LED and AV, delivered to a professional standard.'
-			},
-			{
-				title: 'Talent, Guest & Stakeholder Management',
-				description: 'Coordinating hosts, speakers, performers and VIPs so nothing is left to chance.'
-			},
-			{
-				title: 'Logistics & On-Site Operations',
-				description: 'Suppliers, installations, rehearsals, event-day running and post-event dismantling.'
-			}
-		]
-	},
-	{
-		slug: 'set-design',
-		number: '03',
-		icon: LayoutTemplate,
-		title: 'Set Design',
-		summary:
-			'We transform ordinary venues into environments that feel intentional designed, styled and built around your brand and your guests.',
-		image: 'images/e (7).jpg',
-		items: [
-			{
-				title: 'Spatial Design & Styling',
-				description: 'Venue layouts that balance beauty, function and guest flow.'
-			},
-			{
-				title: 'Creative Set & Stage Design',
-				description: 'Stage environments and focal features that bring your event concept to life.'
-			},
-			{
-				title: 'Décor & Styling',
-				description: 'Furniture, fabric, florals, texture and props, curated with intention.'
-			},
-			{
-				title: 'Lighting & Atmosphere',
-				description: 'Lighting design that shapes mood and elevates a space in an instant.'
-			},
-			{
-				title: 'Brand Integration',
-				description: 'Your identity woven through the venue via signage, graphics and structures.'
-			},
-			{
-				title: 'Venue Transformation & Production',
-				description: 'Full set-up, styling, technical coordination and dismantling, handled by us.'
-			}
-		]
-	},
-	{
-		slug: 'brand-activation',
-		number: '04',
-		icon: Megaphone,
-		title: 'Brand Strategy & Activation',
-		summary:
-			'We create the moments where a brand actually meets its audience, and make sure that meeting is memorable.',
-		image: 'images/121524.jpg',
-		items: [
-			{
-				title: 'Corporate Brand Activations',
-				description: 'Campaigns that put your brand directly in front of the people who matter.'
-			},
-			{
-				title: 'Public Awareness & Promotional Campaigns',
-				description: 'Visibility-driven campaigns built for engagement, not just impressions.'
-			},
-			{
-				title: 'Product & Service Launches',
-				description: 'Launches designed to introduce, excite and convert.'
-			},
-			{
-				title: 'Branded Customer Experiences',
-				description: 'Touchpoints that turn customers into community.'
-			},
-			{
-				title: 'Promotional Merchandise',
-				description: 'Tangible brand pieces that extend the experience beyond the day.'
-			}
-		]
-	}
+    {
+        slug: 'large-scale-events',
+        number: '01',
+        icon: Building2,
+        title: 'Corporate Events',
+        summary:
+            'From major industry summits to high-profile celebrations.',
+        image: '/fiat/fiat (4).jpg',
+        items: [
+            {
+                title: 'Conferences, Conventions & Expos',
+                description:
+                    'Multi-day industry gatherings featuring keynote presentations, breakout sessions, sponsor booths, and seamless audience flow.'
+            },
+            {
+                title: 'Product Launches & Brand Activations',
+                description:
+                    'Immersive media showcases and high-impact reveals designed to generate press coverage and social engagement.'
+            },
+            {
+                title: 'Annual Galas & Award Ceremonies',
+                description:
+                    'Black-tie celebrations, milestone events, and industry recognition evenings with high-end staging and entertainment.'
+            }
+        ]
+    },
+    {
+        slug: 'executive-gatherings',
+        number: '02',
+        icon: Briefcase,
+        title: 'Executive Business Gatherings',
+        summary:
+            'Tailored corporate environments designed for strategic alignment, leadership focus, and building strong organizational culture.',
+        image: '/fiat/fiat (2).jpg',
+        items: [
+            {
+                title: 'Executive Retreats & Board Meetings',
+                description:
+                    'High-security, luxury off-site meetings tailored for C-suite executives and board directors.'
+            },
+            {
+                title: 'Corporate Anniversaries & Shareholder Meetings',
+                description:
+                    'Professional, polished corporate assemblies with structured presentations and live streaming capabilities.'
+            },
+            {
+                title: 'Team Building & Corporate Workshops',
+                description:
+                    'Interactive indoor and outdoor team experiences designed to boost morale, collaboration, and company culture.'
+            }
+        ]
+    },
+    {
+        slug: 'end-to-end-production',
+        number: '03',
+        icon: Wrench,
+        title: 'End-to-End Production & Execution',
+        summary:
+            'Complete technical and operational delivery.',
+        image: '/fiat/Podium_on_stage_with_microphones_2K_20260922212414.jpeg',
+        items: [
+            {
+                title: 'Event Strategy & Design',
+                description:
+                    'Spatial planning, thematic branding, concept development, and custom stage set creation.'
+            },
+            {
+                title: 'Audiovisual & Technical Production',
+                description:
+                    'Professional lighting rigs, sound engineering, LED video walls, live webcasting, and hybrid event technology.'
+            },
+            {
+                title: 'Vendor & Logistics Management',
+                description:
+                    'Venue sourcing, catering design, decor setup, transportation, security, and protocol management.'
+            }
+        ]
+    },
+    {
+        slug: 'specialised-formats',
+        number: '04',
+        icon: Video,
+        title: 'Specialised & Hybrid Formats',
+        summary:
+            'Modern event delivery combining digital reach with curated, high-touch physical environments for exclusive audiences.',
+        image: '/fiat/Gala_dinner_stage_setup_2K_20260922210159.jpeg',
+        items: [
+            {
+                title: 'Virtual & Hybrid Events',
+                description:
+                    'Seamless digital streaming platforms, remote speaker integration, and interactive attendee portals.'
+            },
+            {
+                title: 'Client Appreciation Dinners & VIP Experiences',
+                description:
+                    'Curated, intimate dining and entertainment experiences for high-value clients and partners.'
+            }
+        ]
+    }
 ];
