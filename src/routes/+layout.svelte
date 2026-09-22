@@ -4,7 +4,7 @@
     import gsap from "gsap";
 
     // import { ScrollSmoother } from "gsap/dist/ScrollSmoother";
-    import { Menu, X } from "@lucide/svelte"
+    import { Menu, X, Phone } from "@lucide/svelte"
 
 	import Button from '$lib/components/ui/button.svelte'
 	import NavMenu from '$lib/components/sections/navMenu.svelte'
@@ -130,7 +130,7 @@
 
 <div class="flex flex-col h-screen overflow-hidden relative selection:bg-accent selection:text-accent-foreground content-grid font-body text-foreground">
 	<!-- Primary Site Header -->
-	<header class="h-18 md:h-20 sticky top-0 z-50 content-grid border-b border-border bg-background/90 backdrop-blur-md">
+	<header class="h-18 md:h-20 z-50 content-grid bg-background/90 backdrop-blur-md">
 		<div class="flex items-center justify-between breakout">
 			<!-- Brand Logo & Identity -->
 			<a href="/" class="flex items-center gap-4 group">
@@ -151,6 +151,7 @@
 			<div class="flex items-center gap-3">
 				<a href="/contact" class="hidden md:block">
                     <Button variant="outline">
+                        <Phone class="size-5 mr-2" />
                         Talk to us
                     </Button>
 				</a>

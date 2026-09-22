@@ -18,7 +18,7 @@
 		transition:fade={{ duration: 250, easing: cubicOut }}
 	>
 		<div class="content-grid min-h-screen py-32 pb-16">
-			<div class="breakout grid gap-12 md:grid-cols-[1.3fr_1fr]">
+			<div class="breakout grid gap-12 md:grid-cols-[1.3fr_1fr] mt-auto">
 				<nav>
 					<ul class="flex flex-col gap-2">
 						{#each navLinks as link, i (link.href)}
@@ -39,7 +39,7 @@
 				</nav>
 
 				<div
-					class="flex flex-col justify-between gap-10 border-t border-primary-foreground/10 pt-8 md:border-t-0 md:border-l md:pl-12 md:pt-0"
+					class="flex flex-col justify-between gap-10  pt-8 md:border-t-0 md:border-l md:pl-12 md:pt-0"
 					in:fly={{ y: 24, duration: 400, delay: 340, easing: cubicOut }}
 				>
 					<div class="space-y-3 text-sm text-primary-foreground/70">
