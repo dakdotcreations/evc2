@@ -36,28 +36,34 @@ export type WhyChoosePoint = {
 };
 
 export const whyChoosePoints: WhyChoosePoint[] = [
-	{
-		title: 'Branding Roots, Events Range',
-		description: 'Branding expertise integrated throughout every aspect of full-scale experience delivery.'
-	},
-	{
-		title: 'Time Management, Taken Seriously',
-		description: 'We treat your event clock like our own punctual planning, punctual delivery.'
-	},
-	{
-		title: 'Hospitality First',
-		description: 'Everyone who touches our projects, guests and suppliers alike, is treated like family.'
-	},
-	{
-		title: 'Community at the Core',
-		description: 'We build relationships that outlast a single event or campaign.'
-	},
-	{
-		title: 'Playful, Not Careless',
-		description: 'A friendly, energetic team that never loses sight of standards or deadlines.'
-	},
-	{
-		title: 'Excellence, Without the Ego',
-		description: 'Straightforward communication, clean execution, no drama.'
-	}
+    {
+        title: "Branding is in Our DNA",
+        description:
+            "We do not just put up tents and speakers. We make sure every detail actually looks and feels like your brand."
+    },
+    {
+        title: "Obsessed with Time",
+        description:
+            "If the event starts at 9:00 AM, everything is tested, polished, and ready long before 9:00 AM. Zero excuses."
+    },
+    {
+        title: "Hospitality is Our Default",
+        description:
+            "Whether it is a C-suite executive, an attendee, or a sound technician, everyone gets treated with genuine warmth."
+    },
+    {
+        title: "We Handle the Headache",
+        description:
+            "From permits and catering to stage light setups, we deal with the messy logistics so you can actually enjoy the event."
+    },
+    {
+        title: "Technical Precision",
+        description:
+            "Clear sound, crisp LED screens, and no awkward mic feedback during important speeches. We get the tech right."
+    },
+    {
+        title: "Easy to Work With, Zero Drama",
+        description:
+            "Friendly communication, upfront pricing, and a team that stays calm under pressure when plans change."
+    }
 ];

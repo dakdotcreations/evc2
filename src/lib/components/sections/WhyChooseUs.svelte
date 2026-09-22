@@ -4,8 +4,8 @@
 	import Eyebrow from '$lib/components/ui/Eyebrow.svelte';
 </script>
 
-<section class="full-width content-grid bg-background py-8">
-	<div class="breakout overflow-hidden rounded-[2.5rem] bg-primary py-16 text-primary-foreground md:py-20" use:reveal>
+<section class="full-width content-grid bg-primary py-8">
+	<div class="breakout overflow-hidden rounded-[2.5rem] py-16 text-primary-foreground md:py-20" use:reveal>
 		<div class="content-grid">
 			<div class="breakout max-w-xl">
 				<Eyebrow text="Why choose FIAT" light />

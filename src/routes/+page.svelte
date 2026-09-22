@@ -20,7 +20,7 @@
 <OurStory compact />
 <ServicesOverview />
 <!-- <WorkGallery /> -->
-<Approach compact />
+<!-- <Approach compact /> -->
 <WhyChooseUs />
 <PromiseBanner />
 <CTA />
