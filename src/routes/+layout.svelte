@@ -32,91 +32,94 @@
 </script>
 
 <svelte:head>
-	<title>FIAT Creative Events Company Limited | Branding · Events · Culture</title>
-	<meta name="description" content="FIAT is a branding, events and brand activation company that builds culture through everything we touch spaces, moments, and the small details in between." />
-	
-	<!-- Canonical Link -->
-	<link rel="canonical" href="https://www.fiatcreativeevents.com/" />
+    <title>FIAT Creative Events | Corporate Event Management & Brand Activations</title>
+    <meta 
+        name="description" 
+        content="FIAT is a full-service corporate event management and brand activation agency. We engineer seamless corporate conferences, product launches, set designs, and high-impact live experiences." 
+    />
+    
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://www.fiatcreativeevents.com/" />
 
-	<!-- Open Graph Meta Tags -->
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.fiatcreativeevents.com/" />
-	<meta property="og:title" content="FIAT Creative Events Company Limited | Branding · Events · Culture" />
-	<meta property="og:description" content="FIAT is a branding, events and brand activation company that builds culture through everything we touch spaces, moments, and the small details in between." />
-	<meta property="og:image" content="https://www.fiatcreativeevents.com/og-image.png" />
-	<meta property="og:image:width" content="577" />
-	<meta property="og:image:height" content="190" />
-	<meta property="og:site_name" content="FIAT Creative Events" />
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.fiatcreativeevents.com/" />
+    <meta property="og:title" content="FIAT Creative Events | Corporate Event Management & Brand Activations" />
+    <meta property="og:description" content="FIAT is a full-service corporate event management and brand activation agency. We engineer seamless corporate conferences, product launches, set designs, and high-impact live experiences." />
+    <meta property="og:image" content="https://www.fiatcreativeevents.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="FIAT Creative Events" />
 
-	<!-- Twitter Meta Tags -->
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:url" content="https://www.fiatcreativeevents.com/" />
-	<meta name="twitter:title" content="FIAT Creative Events Company Limited | Branding · Events · Culture" />
-	<meta name="twitter:description" content="FIAT is a branding, events and brand activation company that builds culture through everything we touch spaces, moments, and the small details in between." />
-	<meta name="twitter:image" content="https://www.fiatcreativeevents.com/og-image.png" />
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://www.fiatcreativeevents.com/" />
+    <meta name="twitter:title" content="FIAT Creative Events | Corporate Event Management & Brand Activations" />
+    <meta name="twitter:description" content="FIAT is a full-service corporate event management and brand activation agency. We engineer seamless corporate conferences, product launches, set designs, and high-impact live experiences." />
+    <meta name="twitter:image" content="https://www.fiatcreativeevents.com/og-image.png" />
 
-	<!-- JSON-LD Structured Data -->
-	<!-- Organization Schema -->
-	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "Organization",
-			"name": "FIAT Creative Events",
-			"url": "https://www.fiatcreativeevents.com",
-			"logo": "https://www.fiatcreativeevents.com/logo.png",
-			"description": "FIAT is a branding, events and brand activation company that builds culture through everything we touch spaces, moments, and the small details in between.",
-			"sameAs": [
-				"https://www.instagram.com/fiatcreativeevents",
-				"https://www.twitter.com/fiatcreative",
-				"https://www.linkedin.com/company/fiat-creative-events"
-			],
-			"contactPoint": {
-				"@type": "ContactPoint",
-				"contactType": "Customer Service",
-				"url": "https://www.fiatcreativeevents.com/contact"
-			}
-		}
-	</script>
+    <!-- JSON-LD Structured Data -->
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "EventVenue",
+            "name": "FIAT Creative Events Company Limited",
+            "url": "https://www.fiatcreativeevents.com",
+            "logo": "https://www.fiatcreativeevents.com/logo.png",
+            "description": "Full-service corporate event production, spatial set design, AV technical execution, and brand activation agency.",
+            "sameAs": [
+                "https://www.instagram.com/fiatcreativeevents",
+                "https://www.twitter.com/fiatcreative",
+                "https://www.linkedin.com/company/fiat-creative-events"
+            ],
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "Customer Service",
+                "url": "https://www.fiatcreativeevents.com/contact"
+            }
+        }
+    </script>
 
-	<!-- Breadcrumb Schema -->
-	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "BreadcrumbList",
-			"itemListElement": [
-				{
-					"@type": "ListItem",
-					"position": 1,
-					"name": "Home",
-					"item": "https://www.fiatcreativeevents.com"
-				},
-				{
-					"@type": "ListItem",
-					"position": 2,
-					"name": "About",
-					"item": "https://www.fiatcreativeevents.com/about"
-				},
-				{
-					"@type": "ListItem",
-					"position": 3,
-					"name": "Services",
-					"item": "https://www.fiatcreativeevents.com/services"
-				},
-				{
-					"@type": "ListItem",
-					"position": 4,
-					"name": "Contact",
-					"item": "https://www.fiatcreativeevents.com/contact"
-				}
-			]
-		}
-	</script>
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.fiatcreativeevents.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "About",
+                    "item": "https://www.fiatcreativeevents.com/about"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Services",
+                    "item": "https://www.fiatcreativeevents.com/services"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Contact",
+                    "item": "https://www.fiatcreativeevents.com/contact"
+                }
+            ]
+        }
+    </script>
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,500&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
 
-	<link rel="icon" href={favicon} />
+    <link rel="icon" href={favicon} />
 
     <script type="text/javascript">
         (function(c,l,a,r,i,t,y){
