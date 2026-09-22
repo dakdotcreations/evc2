@@ -11,14 +11,14 @@
 	<meta name="description" content="Branding & visual communication, event management & production, set design, and brand strategy & activation." />
 </svelte:head>
 
-<PageHeader
+<!-- <PageHeader
 	eyebrow="What we do"
 	title="Four disciplines, one creative house."
 	description="We don't just decorate an occasion, we bring a brand to life inside it. From branding roots to full-scale event production, every service is built around the same instinct: make it felt, not just seen."
-/>
+/> -->
 
-<nav class="full-width content-grid sticky top-[4.5rem] z-30 border-b border-border bg-background/90 backdrop-blur-md md:top-20" use:reveal>
-	<div class="breakout flex gap-6 overflow-x-auto py-4 text-sm font-medium whitespace-nowrap text-foreground-muted">
+<nav class="full-width content-grid sticky top-0 z-30 border-b border-border bg-background/90 backdrop-blur-md md:top-20" use:reveal>
+	<div class="breakout flex justify-center gap-6 overflow-x-auto py-4 text-sm font-medium whitespace-nowrap text-foreground-muted">
 		{#each services as service (service.slug)}
 			<a href={`#${service.slug}`} class="transition-colors hover:text-secondary">{service.title}</a>
 		{/each}

@@ -13,6 +13,7 @@ export type ServiceCategory = {
 	title: string;
 	summary: string;
 	image: string;
+	image2: string | null;
 	items: ServiceItem[];
 };
 
@@ -25,6 +26,7 @@ export const services: ServiceCategory[] = [
         summary:
             'From major industry summits to high-profile celebrations.',
         image: '/fiat/fiat (4).jpg',
+        image2: null,
         items: [
             {
                 title: 'Conferences, Conventions & Expos',
@@ -51,6 +53,7 @@ export const services: ServiceCategory[] = [
         summary:
             'Tailored corporate environments designed for strategic alignment, leadership focus, and building strong organizational culture.',
         image: '/fiat/fiat (2).jpg',
+        image2: null,
         items: [
             {
                 title: 'Executive Retreats & Board Meetings',
@@ -77,6 +80,7 @@ export const services: ServiceCategory[] = [
         summary:
             'Complete technical and operational delivery.',
         image: '/fiat/Podium_on_stage_with_microphones_2K_20260922212414.jpeg',
+        image2: null,
         items: [
             {
                 title: 'Event Strategy & Design',
@@ -103,6 +107,7 @@ export const services: ServiceCategory[] = [
         summary:
             'Modern event delivery combining digital reach with curated, high-touch physical environments for exclusive audiences.',
         image: '/fiat/Gala_dinner_stage_setup_2K_20260922210159.jpeg',
+        image2: '/fiat/Conference_hall_interior_view_2K_20260922205836.jpeg',
         items: [
             {
                 title: 'Virtual & Hybrid Events',
