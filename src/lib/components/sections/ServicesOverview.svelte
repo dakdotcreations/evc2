@@ -7,11 +7,11 @@
 	const tones = ['bg-primary/5', 'bg-secondary/10', 'bg-deep/5', 'bg-accent/10'];
 </script>
 
-<section class="full-width content-grid bg-background py-24 md:py-32">
+<section class="full-width content-grid bg-background py-24 md:py-32 pt-0">
 	<div class="breakout">
 		<div class="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between" use:reveal>
 			<div>
-				<Eyebrow text="What we do" />
+				<Eyebrow text="What do we do" />
 				<h2 class="mt-3 max-w-lg font-display text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
 					Four disciplines. <br> One creative house.
 				</h2>

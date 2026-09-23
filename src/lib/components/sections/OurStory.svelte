@@ -23,9 +23,9 @@
 
             <!-- Content Block -->
             <div use:reveal={120} class="lg:col-span-7 flex flex-col justify-center">
-                <Eyebrow text="Our Origin" />
+                <Eyebrow text="Who are we" />
                 <h2 class="mt-4 font-display text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
-                    Where spatial branding meets full-scale event execution.
+                    Spatial branding meets full-scale event execution.
                 </h2>
 
                 <p class="mt-6 text-lg leading-relaxed text-foreground-muted">

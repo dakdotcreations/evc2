@@ -72,7 +72,7 @@
 }
 
 .h1 {
-    font-size: min(max(44px, 5.55556vw), 80px);
+    font-size: min(max(40px, 5.55556vw), 80px);
 }
 
 /* Scroll-reveal utility, toggled by the `reveal` action */

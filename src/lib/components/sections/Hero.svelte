@@ -24,11 +24,11 @@
 	];
 </script>
 
-<section class="full-width bg-background pb-12 pt-20">
-	<div class="breakout flex flex-col-reverse relative">
+<section class="full-width bg-background pb-12 lg:pb-0 lg:h-[calc(100vh-5rem)] lg:grid">
+	<div class="flex flex-col-reverse relative lg:h-full lg:grid overflow-hidden">
 		<div use:reveal class="lg:absolute lg:inset-0 z-10 md:grid md:place-content-center md:text-center p-4">
 			<h1
-				class="mt-5 font-display h1 leading-[1.05] font-extrabold tracking-tight text-foreground lg:text-surface"
+				class="font-display h1 leading-[1.05] font-extrabold tracking-tight text-foreground lg:text-surface"
 			>
 				Branding is <span
 					class="font-voice font-medium text-deep lg:text-background italic"
@@ -43,10 +43,10 @@
 				strategy and identity.
 			</p>
 
-			<div class="mt-9 hidden lg:flex flex-wrap items-center justify-center gap-4">
+			<div class="mt-6 hidden lg:flex flex-wrap items-center justify-center gap-4">
 				<a href="/contact">
 					<Button variant="default">
-						Start a project
+						Get in touch
 						<ArrowUpRight class="size-4" />
 					</Button>
 				</a>
@@ -54,10 +54,10 @@
 					<Button variant="outlineDark">See what we do</Button>
 				</a>
 			</div>
-			<div class="mt-9 flex flex-wrap items-center md:justify-center lg:hidden gap-4">
+			<div class="mt-6 flex flex-wrap items-center md:justify-center lg:hidden gap-4">
 				<a href="/contact">
 					<Button variant="primary">
-						Start a project
+						Get in touch
 						<ArrowUpRight class="size-4" />
 					</Button>
 				</a>
@@ -67,8 +67,8 @@
 			</div>
 		</div>
 
-		<div class="relative p-4" use:reveal={150}>
-			<div class="aspect-square sm:aspect-16/12 md:aspect-16/10 lg:aspect-16/8 rounded-3xl overflow-hidden relative hero-container">
+		<div class="relative p-4 lg:grid" use:reveal={150}>
+			<div class="aspect-square sm:aspect-16/12 md:aspect-16/10 lg:aspect-16/8 lg:h-full rounded-3xl overflow-hidden relative hero-container">
 				<img
 					src="/fiat/fiat_(6)_2K_20260922195257.jpeg"
 					alt=""

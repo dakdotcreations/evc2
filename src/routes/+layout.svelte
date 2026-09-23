@@ -132,49 +132,49 @@
 
 
 <div class="flex flex-col h-screen relative selection:bg-accent selection:text-accent-foreground content-grid font-body text-foreground">
-	<!-- Primary Site Header -->
-	<header class="h-18 md:h-20 z-50 content-grid bg-background/90 backdrop-blur-md">
-		<div class="flex items-center justify-between breakout">
-			<!-- Brand Logo & Identity -->
-			<a href="/" class="flex items-center gap-4 group">
-                <Logo class="h-8 md:h-9" />
-			</a>
-
-			<!-- Desktop Navigation -->
-			<nav class="hidden items-center gap-8 md:flex">
-				{#each navLinks as link (link.href)}
-					<a href={link.href} class="group relative pb-1 text-sm font-semibold text-foreground-muted transition-colors hover:text-foreground">
-						{link.label}
-						<span class="absolute inset-x-0 -bottom-0.5 h-0.5 w-0 bg-accent transition-all duration-300 group-hover:w-full"></span>
-					</a>
-				{/each}
-			</nav>
-
-			<!-- Action Callouts -->
-			<div class="flex items-center gap-3">
-				<a href="/contact" class="hidden md:block">
-                    <Button variant="outline">
-                        <Phone class="size-5 mr-2" />
-                        Talk to us
-                    </Button>
-				</a>
-
-                <!-- Mobile Menu Button -->
-                <Button onclick={toggleMobileMenu} variant="outline" size="icon" class="md:hidden">
-                    {#if isMenuOpen}
-                        <X class="size-5" />
-                    {:else}
-                        <Menu class="size-5" />
-                    {/if}
-                </Button>
-			</div>
-		</div>
-	</header>
-
-	<!-- Mobile Dropdown Menu (kept outside header so its own fixed overlay isn't trapped by the header's backdrop-blur containing block) -->
-	<NavMenu bind:isMenuOpen />
-
     <div id="smooth-wrapper" class="flex-1 full-width overflow-auto">
+        <!-- Primary Site Header -->
+        <header class="h-18 md:h-20 z-50 content-grid bg-background/90 backdrop-blur-md">
+            <div class="flex items-center justify-between breakout">
+                <!-- Brand Logo & Identity -->
+                <a href="/" class="flex items-center gap-4 group">
+                    <Logo class="h-8 md:h-9" />
+                </a>
+    
+                <!-- Desktop Navigation -->
+                <nav class="hidden items-center gap-8 md:flex">
+                    {#each navLinks as link (link.href)}
+                        <a href={link.href} class="group relative pb-1 text-sm font-semibold text-foreground-muted transition-colors hover:text-foreground">
+                            {link.label}
+                            <span class="absolute inset-x-0 -bottom-0.5 h-0.5 w-0 bg-accent transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    {/each}
+                </nav>
+    
+                <!-- Action Callouts -->
+                <div class="flex items-center gap-3">
+                    <a href="/contact" class="hidden md:block">
+                        <Button variant="outline">
+                            <Phone class="size-5 mr-2" />
+                            Talk to us
+                        </Button>
+                    </a>
+    
+                    <!-- Mobile Menu Button -->
+                    <Button onclick={toggleMobileMenu} variant="outline" size="icon" class="md:hidden">
+                        {#if isMenuOpen}
+                            <X class="size-5" />
+                        {:else}
+                            <Menu class="size-5" />
+                        {/if}
+                    </Button>
+                </div>
+            </div>
+        </header>
+    
+        <!-- Mobile Dropdown Menu (kept outside header so its own fixed overlay isn't trapped by the header's backdrop-blur containing block) -->
+        <NavMenu bind:isMenuOpen />
+     
         <!-- Main Viewport -->
         <main class="content-grid" id="smooth-content">
             {@render children()}

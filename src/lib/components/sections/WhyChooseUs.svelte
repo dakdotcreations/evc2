@@ -14,7 +14,7 @@
 				</h2>
 			</div>
 
-			<div class="breakout mt-12 grid gap-px overflow-hidden rounded-3xl bg-primary-foreground/10 sm:grid-cols-2 lg:grid-cols-3">
+			<div class="breakout mt-12 grid gap-px overflow-hidden rounded-3xl sm:grid-cols-2 lg:grid-cols-3">
 				{#each whyChoosePoints as point, i (point.title)}
 					<div class="bg-primary p-8" use:reveal={i * 60}>
 						<span class="font-display text-lg font-extrabold text-accent">0{i + 1}</span>
