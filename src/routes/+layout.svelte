@@ -131,7 +131,7 @@
 </svelte:head>
 
 
-<div class="flex flex-col h-screen overflow-hidden relative selection:bg-accent selection:text-accent-foreground content-grid font-body text-foreground">
+<div class="flex flex-col h-screen relative selection:bg-accent selection:text-accent-foreground content-grid font-body text-foreground">
 	<!-- Primary Site Header -->
 	<header class="h-18 md:h-20 z-50 content-grid bg-background/90 backdrop-blur-md">
 		<div class="flex items-center justify-between breakout">
@@ -174,7 +174,7 @@
 	<!-- Mobile Dropdown Menu (kept outside header so its own fixed overlay isn't trapped by the header's backdrop-blur containing block) -->
 	<NavMenu bind:isMenuOpen />
 
-    <div id="smooth-wrapper" class="flex-1 overflow-auto">
+    <div id="smooth-wrapper" class="flex-1 full-width overflow-auto">
         <!-- Main Viewport -->
         <main class="content-grid" id="smooth-content">
             {@render children()}
